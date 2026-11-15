@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/secunexhp">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
